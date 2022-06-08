@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 299
+  ClientHeight = 200
   ClientWidth = 635
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -13,4 +13,30 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    AlignWithMargins = True
+    Left = 3
+    Top = 137
+    Width = 629
+    Height = 60
+    Align = alBottom
+    Alignment = taCenter
+    Caption = '...'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -40
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ExplicitTop = 360
+  end
+  object Button1: TButton
+    Left = 152
+    Top = 40
+    Width = 345
+    Height = 89
+    Caption = 'Clique em mim :)'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
 end
