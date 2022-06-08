@@ -26,7 +26,9 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
+  label1.Visible := true;
   label1.Caption := 'Olá mundo do Delphi Community';
+
 
 end;
 

@@ -16,9 +16,9 @@ object Form1: TForm1
   object Label1: TLabel
     AlignWithMargins = True
     Left = 3
-    Top = 137
+    Top = 149
     Width = 629
-    Height = 60
+    Height = 48
     Align = alBottom
     Alignment = taCenter
     Caption = '...'
@@ -28,7 +28,9 @@ object Form1: TForm1
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
-    ExplicitTop = 360
+    Visible = False
+    ExplicitTop = 137
+    ExplicitWidth = 36
   end
   object Button1: TButton
     Left = 152
